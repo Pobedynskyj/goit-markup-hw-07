@@ -1,0 +1,30 @@
+.item-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--nav-txt-cl);
+}
+
+.item-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--often-color);
+}
+
+.main-prt-sect {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.main-list-prt {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+// --
+
