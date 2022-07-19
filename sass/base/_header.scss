@@ -35,9 +35,6 @@
 }
 
 
-
-
-
 .header-list-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -57,8 +54,8 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--nav-txt-cl);
 }
+
 
 .header-contact-item:not(:first-child) {
   margin-left: 50px;

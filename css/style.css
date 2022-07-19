@@ -250,14 +250,14 @@ img {
   margin: -15px;
 } */
 
-.main-prt-item {
+/* .main-prt-item {
   box-sizing: border-box;
   background-color: var(--white-color);
-  margin: 15px;
-  width: calc(100% / 3 -30px);
-}
+  margin: 15px; */
+/* width: calc(100% / 3 -30px); 
+} */
 
-.main-prt-item:hover .prt-overlay {
+/* .main-prt-item:hover .prt-overlay {
   transform: translateY(0);
   transition: var(--anim);
 }
@@ -278,7 +278,7 @@ img {
 
 .item-p {
   margin-top: 4px;
-}
+} */
 
 /* overlay */
 /* 

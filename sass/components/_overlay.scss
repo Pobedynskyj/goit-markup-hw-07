@@ -12,9 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     transform: translateY(100%);
-
     backdrop-filter: blur(3px);
     background-color: rgba(33, 150, 243, 0.9);
     padding: 63px 24px;
@@ -23,6 +21,5 @@
     font-size: 18px;
     line-height: 1.55;
     letter-spacing: 0.03em;
-
     transition: var(--anim);
 }

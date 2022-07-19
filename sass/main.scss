@@ -1,3 +1,7 @@
+@import "./utils/variables";
+@import "./utils/root";
+@import "./utils/reset";
+
 @import "./components/logo";
 @import "./components/page-header";
 @import "./components/container";
@@ -16,9 +20,7 @@
 @import "./components/hero";
 @import "./components/overlay";
 
-@import "./utils/variables";
-@import "./utils/root";
-@import "./utils/reset";
+
 
 @import "./base/setting";
 @import "./base/header";
