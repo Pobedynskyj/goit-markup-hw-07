@@ -1,6 +1,6 @@
 .clients {
     padding: 94px 0;
-&-main {
+&__main {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
@@ -9,11 +9,11 @@
         color: var(--nav-txt-cl);
         margin-bottom: 50px;
     }
-&-list {
+&__list {
     display: flex;
     justify-content: center;
 }
-&-item {
+&__item {
     box-sizing: border-box;
     border: 1px solid #afb1b8;
     border-radius: 4px;
@@ -23,7 +23,7 @@
     justify-content: center;
     align-items: center;
 }
-&-item:hover {
+&__item:hover {
     box-sizing: border-box;
     border: 1px solid #2196f3;
     border-radius: 4px;
@@ -31,20 +31,20 @@
     align-items: center;
     transition: var(--anim);
 }
-&-icon:hover {
+&__icon:hover {
     fill: var(--accent-color);
     transition: var(--anim);
 }
-&-item:not(:last-child) {
+&__item:not(:last-child) {
     margin-right: 30px;
 }
-&-icon {
+&__icon {
     fill: #afb1bb;
 }
 }
 
-.clients-item:hover .clients-icon,
-.clients-item-hover {
+.clients__item:hover .clients__icon,
+.clients__item-hover {
     fill: #2196f3;
     justify-content: center;
     align-items: center;

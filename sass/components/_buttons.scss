@@ -1,14 +1,14 @@
-.prt-buttons>.list {
+.portfolio__buttons>.list {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.button-prt:not(:last-child) {
+.portfolio__buttons-item:not(:last-child) {
     margin-right: 8px;
 }
 
-.hero-btn {
+.hero__btn {
     display: block;
     font: inherit;
     text-align: center;
@@ -32,7 +32,7 @@
         }
 }
 
-.prt-btn {
+.portfolio__btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -83,7 +83,7 @@
     }
 }
 
-.modal-close-btn {
+.modal__close-btn {
     position: absolute;
     display: flex;
     align-items: center;
@@ -130,7 +130,7 @@
     font-weight: bold;
 }
 
-.modal-close-btn:hover,
+.modal__close-btn:hover,
 .btn-close:hover {
     fill: var(--accent-color);
 }
